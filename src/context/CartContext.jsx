@@ -3,6 +3,8 @@
 import React, { createContext, useContext, useReducer } from 'react';
 
 const CartContext = createContext();
+console.log("____");
+
 
  
 
