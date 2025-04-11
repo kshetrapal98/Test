@@ -1,0 +1,31 @@
+.product-card {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-img {
+    height: 200px;
+    object-fit: contain;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .img-container:hover .product-img {
+    transform: scale(1.05);
+  }
+  
+  .add-to-cart-btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+  }
+  
